@@ -1,0 +1,36 @@
+.contenido-modulo-empleado{
+    display: grid;
+    grid-template-columns: 80% calc(20% - 1.5rem );
+    grid-column-gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.contenido-empleados{
+    border-radius: 5px;
+    background: rgba(155, 155, 155, 0.113);
+}
+
+.contenido-empleados-detalle{
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+
+.total-empleados{
+    border-radius: 5px;
+    background: rgba(155, 155, 155, 0.113);
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.total-empleados h1{
+    padding: 8px;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+}
+
+.total-numero{
+    padding: 60px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}

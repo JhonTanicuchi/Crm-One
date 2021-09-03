@@ -1,0 +1,224 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contenedor-header{
+    background-color: #d02e10;
+    background-image: linear-gradient(0deg, #ab1f14 0%,#d02e10 100%);
+    align-items: center;
+    height: 50pX;
+    /* box-shadow: inset 0 0 17px 15px rgba(27, 0, 0, 0.103); */
+}
+
+.logo-header{
+    width: 80px;
+    margin: 10px 0px 0px 20px;
+    height: 30px;
+    width: 82px;
+}
+
+
+.contenedor{
+    /* display: grid;
+    grid-template-columns: 4% 96%; */
+
+    width: 55px;
+    background: #565656;
+    position: fixed;
+    z-index: 100;
+    top: 50px;
+    bottom: 0px;
+    display: flex;
+}
+
+
+.contenedor-nav{
+    background: #565656;
+    width: 55px;
+    height: calc(100vh - 50px);
+}
+
+.contenedor-nav a{
+    width: 55px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-nav a:hover{
+    background-color: #666666;
+    color: #c5ccd5;
+}
+
+.contenedor-nav i{
+    opacity: 60%;
+    color: white;
+    font-size: 20px;
+}
+
+.contenedor-modules{
+    height: calc(100vh - 50px);
+    display: grid;
+    background: #FFFFFF;
+    grid-template-rows: 7% 92% ;
+ 
+
+}
+
+.img-perfil-mesa{
+    background: url(https://10.57.69.202:12900/oc/bes/ad/ctz/themes/default/resource/img/nrny/individual_ico.png) no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+    border: none;
+}
+
+.pestañas{
+    width: 1481px;
+    padding-left: 5px;
+    background: #fff;
+    border-bottom: 1px solid #cdd5dd;
+    position: relative;
+}
+
+
+.pestaña-dashboard{
+    border-bottom: none;
+    width: 179px;
+    height: 36px;
+    background: #f9f9f9;
+    color: #333333;
+    font-weight: normal;
+    line-height: 34px;
+    border-top: 2px #d02e10 solid;
+    border-left: 1px solid #cdd5dd;
+    border-right: 1px solid #cdd5dd;
+    border-radius: 5px 5px 0px 0px;
+    position: absolute;
+    bottom: 0;
+    filter: grayscale(100%);
+
+}
+
+.active{
+    bottom: -1px;
+    filter: grayscale(0%);
+}
+
+.p2{
+    margin-left: 190px;
+}
+
+.p3{
+    margin-left: 380px;
+
+}
+
+.p4{
+    margin-left: 570px;
+
+}
+
+.pestaña-dashboard p{
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+.contenido-perfil{
+    position: relative;
+    height: 170px;
+    background: #EEEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-claro-perfil{
+    position: absolute;
+    background: url(https://10.57.69.202:12900/oc/bes/ad/ctz/themes/default/resource/img/nrny/workspace_sun.png) no-repeat left bottom;
+    width: 182px;
+    height: 170px;
+    left: 0;
+    bottom: 0;
+}
+
+.contenedor-img-perfil-mesa{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;  
+}
+
+.title-modulos{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+}
+
+.title-modulos span{
+
+    font-size: 16px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #747980;
+    border-right: 2px solid #747980;
+}
+
+.contenido-modulos{
+    display: grid;
+    grid-template-columns: calc(100% / 8) calc(100% / 8) calc(100% / 8) calc(100% / 8) calc(100% / 8) calc(100% / 8) calc(100% / 8) calc(100% / 8);
+    background: #f9f9f9;
+}
+
+.card-grid{
+    height: 146px;
+    border: 1px dotted #74798062;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-grid{
+    text-align: center;
+    display: block;
+   padding: 0px 30px;
+}
+
+.cont-grid i{
+    font-size: 60px;
+    color: #D02E10;
+    margin-bottom: 10px;
+}
+
+.cont-grid span{
+    font-size: 13px;
+    opacity: 80%;
+}
+
+
