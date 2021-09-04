@@ -75,7 +75,25 @@
                         <tbody>
                             <tr>
                                 <td>1725028540</td>
-                                <td>jhonatantany@gmail.com</td>
+                                <td>VLO@mail.com</td>
+                                <td>Empleado</td>
+                            </tr>
+
+                            <tr>
+                                <td>1725028540</td>
+                                <td>XSO@mail.com</td>
+                                <td>Empleado</td>
+                            </tr>
+
+                            <tr>
+                                <td>1725028540</td>
+                                <td>ZLC@mail.com</td>
+                                <td>Empleado</td>
+                            </tr>
+
+                            <tr>
+                                <td>1725028540</td>
+                                <td>FLF@mail.com</td>
                                 <td>Empleado</td>
                             </tr>
 
@@ -84,38 +102,7 @@
                                 <td>jhonatantany@gmail.com</td>
                                 <td>Empleado</td>
                             </tr>
-
-                            <tr>
-                                <td>1725028540</td>
-                                <td>jhonatantany@gmail.com</td>
-                                <td>Empleado</td>
-                            </tr>
-
-                            <tr>
-                                <td>1725028540</td>
-                                <td>jhonatantany@gmail.com</td>
-                                <td>Empleado</td>
-                            </tr>
-
-                            <tr>
-                                <td>1725028540</td>
-                                <td>jhonatantany@gmail.com</td>
-                                <td>Empleado</td>
-                            </tr>
-
-                            <tr>
-                                <td>1725028540</td>
-                                <td>jhonatantany@gmail.com</td>
-                                <td>Empleado</td>
-                            </tr>
-
-                            <tr>
-                                <td>1725028540</td>
-                                <td>jhonatantany@gmail.com</td>
-                                <td>Empleado</td>
-                            </tr>
-
-
+                         
                         </tbody>
                     </table>
                 </div>

@@ -42,7 +42,7 @@ include_once '../model/conexion.php';
 					':correo' =>$correo,
 					':id' =>$id
 				));
-				header('Location: index.php');
+				header('Location: lista-empleados.php');
 			}
 		}else{
 			echo "<script> alert('Los campos estan vacios');</script>";

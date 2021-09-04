@@ -68,7 +68,7 @@
                     </div>
 
                     <div class="contenido-modulos">
-                        <a href="registro-empleados.php" style="text-decoration: none; color: black;">
+                        <a href="registro-persona.php" style="text-decoration: none; color: black;">
                             <div class="card-grid">
                                 <div class="cont-grid">
                                     <div>
@@ -78,7 +78,7 @@
                                 </div>
                             </div>
                         </a>
-                        
+
                         <a href="lista-empleados.php" style="text-decoration: none; color: black;">
                             <div class="card-grid">
                                 <div class="cont-grid">
@@ -90,13 +90,13 @@
                             </div>
                         </a>
 
-                        <a href="registro-personas.php" style="text-decoration: none; color: black;">
+                        <a href="lista-usuarios.php" style="text-decoration: none; color: black;">
                             <div class="card-grid">
                                 <div class="cont-grid">
                                     <div>
                                         <i class="las fa-user-cog"></i>
                                     </div>
-                                    <span>Administración Personas</span>
+                                    <span>Lista Usuarios</span>
                                 </div>
                             </div>
                         </a>

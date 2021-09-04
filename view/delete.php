@@ -7,8 +7,8 @@ include_once '../model/conexion.php';
 		$delete->execute(array(
 			':id'=>$id
 		));
-		header('Location: index.php');
+		header('Location:lista-empleados.php');
 	}else{
-		header('Location: index.php');
+		header('Location: login.php');
 	}
  ?>

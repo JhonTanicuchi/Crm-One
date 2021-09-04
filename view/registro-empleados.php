@@ -73,28 +73,34 @@
                         <div class="row g-3 contenedor-form-part">
                             <div class="col-md-2">
                                 <label for="validationCustom01" class="form-label">Número de identificación</label>
-                                <input type="text" class="form-control" name="numeroIdentificacion" autocomplete="off"
-                                    required />
+                                <input type="tel" class="form-control" name="numeroIdentificacion" autocomplete="off"
+                                pattern="[0-9]{10}" required />
                                 <div class="invalid-feedback">
-
+                                Ingresa un número de identificación correcto.
                                 </div>
                             </div>
 
                             <div class="col-md-4">
-                                <label for="validationCustom02" class="form-label">Banco</label>
-                                <input type="number" class="form-control" id="password" name="banco" autocomplete="off"
-                                    required />
-                                <div class="invalid-feedback">
-                                    <!-- coloca alerta -->
-                                </div>
+                                <label for="validationCustom04" class="form-label">Banco</label>
+                                <select class="form-select" id="validationCustom04" name="tipoCuenta" required>
+                                    <option selected disabled value="">...</option>
+                                    <option value="1">Banco Pichincha</option>
+                                    <option value="2">Banco Guayaquil</option>
+                                    <option value="2">Banco Pacífico</option>
+                                    <option value="2">Banco Internacional</option>
+                                    <option value="2">Banco Bolivariano</option>
+                                    <option value="2">Produbanco</option>
+                                </select>
+                                <div class="invalid-feedback">Selecciona una opción.</div>
                             </div>
+                        
 
                             <div class="col-md-3">
                                 <label for="validationCustom02" class="form-label">Número Cuenta Bancaria</label>
-                                <input type="number" class="form-control" id="password" name="cuentaBanco"
-                                    autocomplete="off" required />
+                                <input type="tel" class="form-control" id="validationCustom04" name="cuentaBanco"
+                                    autocomplete="off" pattern="[0-9]{8,20}" required />
                                 <div class="invalid-feedback">
-                                    <!-- coloca alerta -->
+                                    Ingresa un número de cuenta valido.
                                 </div>
                             </div>
 
@@ -110,10 +116,10 @@
 
                             <div class="col-md-1">
                                 <label for="validationCustom02" class="form-label">Sueldo Base</label>
-                                <input type="number" class="form-control" id="password" name="sueldo" autocomplete="off"
-                                    required />
+                                <input type="tel" class="form-control" id="validationCustom04" name="sueldo" autocomplete="off"
+                                pattern="[0-9]{4}" required />
                                 <div class="invalid-feedback">
-                                    <!-- coloca alerta -->
+                                    Ingresa un sueldo valido.
                                 </div>
                             </div>
 

@@ -84,10 +84,10 @@
 
                             <div class="col-md-2">
                                 <label for="validationCustom01" class="form-label">Número de identificación</label>
-                                <input type="text" class="form-control" id="validationCustom01"
-                                    name="numeroIdentificacion" required />
+                                <input type="tel" class="form-control" id="validationCustom01"
+                                    name="numeroIdentificacion" pattern="[0-9]{10}" required />
                                 <div class="invalid-feedback">
-                                    El nombre debe ser en MAYUSCULAS mas de 10 caracteres!
+                                    Ingresa un número de identificación correcto.
                                 </div>
                             </div>
                         </div>
@@ -95,36 +95,36 @@
                         <div class="row g-3">
                             <div class="col-md-3">
                                 <label for="validationCustom02" class="form-label">Primer Nombre</label>
-                                <input type="text" class="form-control" name="nombre1" autocomplete="off" required />
+                                <input type="text" class="form-control" name="nombre1" autocomplete="off" pattern="[A-Za-z]{3,10}" required />
                                 <div class="invalid-feedback">
-                                    Ingresa un formato correcto: jhon@gmail.com!
+                                    Ingresa solamente caracteres.
                                 </div>
                             </div>
 
                             <div class="col-md-3">
                                 <label for="validationCustom02" class="form-label">Segundo Nombre</label>
                                 <input type="text" class="form-control" id="validationCustom02" name="nombre2"
-                                    autocomplete="off" required />
+                                    autocomplete="off" pattern="[A-Za-z]{3,10}" required />
                                 <div class="invalid-feedback">
-                                    Ingresa un formato correcto: jhon@gmail.com!
+                                Ingresa solamente caracteres.
                                 </div>
                             </div>
 
                             <div class="col-md-3">
                                 <label for="validationCustom02" class="form-label">Apellido Paterno</label>
                                 <input type="text" class="form-control" id="validationCustom02" name="apellido1"
-                                    autocomplete="off" required />
+                                    autocomplete="off" pattern="[A-Za-z]{3,10}" required />
                                 <div class="invalid-feedback">
-                                    Ingresa un formato correcto: jhon@gmail.com!
+                                Ingresa solamente caracteres.
                                 </div>
                             </div>
 
                             <div class="col-md-3">
                                 <label for="validationCustom02" class="form-label">Apellido Materno</label>
                                 <input type="text" class="form-control" id="validationCustom02" name="apellido2"
-                                    autocomplete="off" required />
+                                    autocomplete="off" pattern="[A-Za-z]{3,10}" required />
                                 <div class="invalid-feedback">
-                                    Ingresa un formato correcto: jhon@gmail.com!
+                                Ingresa solamente caracteres.
                                 </div>
                             </div>
 
@@ -134,14 +134,14 @@
                                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="off" name="email"
                                     required />
                                 <div class="invalid-feedback">
-                                    Ingresa un formato correcto: jhon@gmail.com!
+                                    Ingresa un formato correcto de correo: ejemplo@ejemplo.com
                                 </div>
                             </div>
 
                             <div class="col-md-2">
                                 <label for="validationCustom02" class="form-label">Teléfono</label>
-                                <input type="text" class="form-control" name="telefono" autocomplete="off" required />
-                                <div class="invalid-feedback">Las contraseñas no coinciden!</div>
+                                <input type="tel" class="form-control" name="telefono" autocomplete="off" pattern="[09]+[0-9]{10}" required />
+                                <div class="invalid-feedback">Ingresa un número de teléfono correcto.</div>
                             </div>
 
                             <div class="col-md-6">
@@ -149,8 +149,7 @@
                                 <input type="text" class="form-control" id="password" name="direccion"
                                     autocomplete="off" required />
                                 <div class="invalid-feedback">
-                                    Debe contener 8 o más caracteres de al menos un número y una letra
-                                    mayúscula y minúscula!
+                                    Ingresa una dirección.
                                 </div>
                             </div>
                         </div>

@@ -79,7 +79,7 @@
                                 <tr>
                                     <td>1725028540</td>
                                     <td>jhonatantany@gmail.com</td>
-                                    <td><span class="circle-active"></span></td>
+                                    <td><span class="circle-inactive"></span></td>
                                 </tr>
 
                                 <tr>
@@ -90,7 +90,7 @@
                                 <tr>
                                     <td>1725028540</td>
                                     <td>jhonatantany@gmail.com</td>
-                                    <td><span class="circle-active"></span></td>
+                                    <td><span class="circle-inactive"></span></td>
                                 </tr>
                                 <tr>
                                     <td>1725028540</td>

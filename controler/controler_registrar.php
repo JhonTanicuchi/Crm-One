@@ -5,7 +5,6 @@ require_once '../model/model_registrar.php';
 
 switch ($_POST['accion']){
     case 1:{
-        require_once '../view/registro-persona.php';
         // persona datos
         $tipoIdentificacion = $_POST['tipoIdentificacion'];
         $numeroIdentificacion = $_POST['numeroIdentificacion'];
@@ -13,7 +12,7 @@ switch ($_POST['accion']){
         $nombre2 = $_POST['nombre2'];
         $apellido1 = $_POST['nombre2'];
         $apellido2 = $_POST['apellido2'];
-        $nombreCompleato = strtoupper($nombre1).''.strtoupper($nombre2).''.strtoupper($apellido1).''.strtoupper($apellido2);
+        $nombreCompleato = strtoupper($nombre1).' '.strtoupper($nombre2).' '.strtoupper($apellido1).' '.strtoupper($apellido2);
         $email = $_POST['email'];
         $direccion = $_POST['direccion'];
         $telefono = $_POST['telefono'];
@@ -22,7 +21,6 @@ switch ($_POST['accion']){
     } break;
 
     case 2:{
-        require_once '../view/registro-empleados.php';
          // empleado datos
          $numeroIdentificacion = $_POST['numeroIdentificacion'];
          $banco = $_POST['banco'];
@@ -35,14 +33,11 @@ switch ($_POST['accion']){
     }break;
 
     case 3:{
-        require_once '../view/registro-Usuario.php';
+                //  usuario datos
         $numeroIdentificacion = $_POST['numeroIdentificacion'];
-        //  usuario datos
-        $clave = $numeroIdentificacion;
         $rolUsuario = $_POST['rolUsuario'];     
         $obj= new Registrar();
-        $obj->insertarUsuario($numeroIdentificacion, $rolUsuario, $email, $clave);
-
+        $obj->insertarUsuario($numeroIdentificacion, $rolUsuario);
     }break;
 }
 ?>
