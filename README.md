@@ -1,4 +1,4 @@
-# CRM One
+# Crm One
 
 <p align="center">
   <img src="https://logodownload.org/wp-content/uploads/2014/02/claro-logo-8.png" alt="Logo del proyecto" width="200">
